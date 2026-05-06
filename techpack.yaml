@@ -70,7 +70,7 @@ components:
     description: Loads XcodeBuildMCP tool catalog and workflow guidance
     type: skill
     dependencies: [xcodebuildmcp]
-    shell: "npx -y skills add cameroncooke/xcodebuildmcp -g -a claude-code -y"
+    shell: "npx -y skills add getsentry/xcodebuildmcp --skill xcodebuildmcp -g -a claude-code -y"
 
   # ── Hooks ───────────────────────────────────────────────────────────────
   - id: hook-ios-simulator
